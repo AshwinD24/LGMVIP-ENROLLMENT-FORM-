@@ -1,0 +1,106 @@
+body {	
+    background-color: blanchedalmond;	
+    background-image: linear-gradient(70deg, #381d1d 0% #690000 100%);	
+    background-repeat: no-repeat;	
+    background-attachment: fixed;	
+    background-size: cover;	
+  }	
+  h1 {	
+    background-color: aqua;	
+    text-align: center;	
+    margin: 5vh 0 0 0;	
+    font-family: Arial, Helvetica, sans-serif;	
+    font-size: 2rem;	
+  }	
+  .container {	
+    width: 100%;	
+    min-height: 100vh;	
+  }	
+  .center {	
+    display: block;	
+    justify-content: center;	
+    align-items: center;	
+  }	
+  table   {	
+    table-layout: initial;	
+    margin: 40px auto;	
+    border-style: dotted;	
+    background-color: silver;	
+  }	
+  table.list  {	
+    font-family: cursive;	
+    text-align: center;	
+    width: 100%;	
+    border-radius: 0.5cm;	
+  }	
+  td {	
+    border: 1px solid  burlywood;	
+    text-align: left;	
+    padding: 8px 15px;	
+    background-color: darkcyan;	
+  }	
+  tr:nth-child(even),	
+  table.list thr ead > tr {	
+    background-color: lightblue;	
+  }	
+  input[type="text"]  {	
+    width: 90%;	
+    padding: 10px 10px;	
+    display: inline-block;	
+    border: none;	
+    border-radius: 6px;	
+    margin: 0px 0 10px 0;	
+  }	
+  input[type="email"] {	
+    width: 90%;	
+    padding: 10px 10px;	
+    margin: 0px 0 10px 0;	
+    display: inline-block;	
+    border: none;	
+    border-radius: 6px;	
+  }	
+  input[type="submit"],	
+  input[type="reset"] {	
+    background: rgb(99, 99, 99);	
+    padding: 6px 12px;	
+    margin: 15px 0 10px;	
+    display: inline-block;	
+    /* border: none; */	
+    border: #132867;	
+    border-radius: 1.5cm;	
+    font-size: 1rem;	
+    font-weight: 800;	
+    cursor: pointer;	
+    outline: none;	
+  }	
+  input [type ="submit"]:hover,	
+  input[type ="reset"]:hover,	
+  button:hover {	
+    background-color: azure;	
+  }	
+  input[type="submit"],	
+  input[type="reset"] {	
+    background: #300435;	
+    color: white;	
+    font-size: 1.2rem;	
+    font-family: cursive;	
+  }	
+  tbody {	
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    	
+  }	
+  .input-part{	
+    font-family: cursive;	
+    font-size: 1.3rem;	
+  }	
+  button {	
+    background: wheat;	
+    color: burlywood;	
+    padding: 6px 12px;	
+    margin: 15px 0 10px;	
+    display: inline-block;	
+    border: none;	
+    border-radius: 10px;	
+    font-size: 1.2rem;	
+    cursor: pointer;	
+    outline: none;	
+  }
